@@ -91,17 +91,12 @@ body{
     -o-transform:scale(1.1);
     -webkit-transform:scale(1.1);
 }
-.secondsectionimg{
+section .secondsectionimg{
     width: 100%;
     margin: auto;
     padding: 2% 0;
-transition: all .2s ease-in;
--webkit-transition: all .2s ease-in;
--moz-transition: all .2s ease-in;
--ms-transition: all .2s ease-in;
--o-transition: all .2s ease-in;
 }
-.secondsectionimg button{
+section .secondsectionimg .button{
     cursor: pointer;
     padding: 14px 20px;
     background-color: bisque;
@@ -111,24 +106,14 @@ transition: all .2s ease-in;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
     border: none;
-    margin: auto;
     margin:0 40% 5% 40%;
     width: 20%;
     font-size: 20px;
     color: rgb(231, 144, 44);
-    transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
 }
- button:hover .secondsectionimg img{
+
+section .secondsectionimg .img1{
     visibility: visible;
-    opacity: 1;
-}
-.secondsectionimg img{
-    /* visibility: hidden; */
-    /* opacity: 0; */
     height: 500px;
     width: 1210px;
     border-radius: 25px;
@@ -136,4 +121,21 @@ transition: all .2s ease-in;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+    transition: all .8s ease-in;
+    -webkit-transition: all .8s ease-in;
+    -moz-transition: all .8s ease-in;
+    -ms-transition: all .8s ease-in;
+    -o-transition: all .8s ease-in;
+}
+
+/* section .secondsectionimg .button:hover .img1{
+   
+} */
+
+section .secondsectionimg .img1:hover {
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
 }
